@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Britton Robotics Club - The Terminatorz</title>
+        <style>
+          #title {
+          text-align:center;
+          }
+          body{ 
+            background-image: url('http://etc.usf.edu/presentations/extras/letters/fridge_magnets/green/30/t-400.png');
+            background-repeat:no-repeat;
+            background-position: center top;
+          }
+          
+          #weekly-agenda {
+            font-family:'Trebuchet MS';
+          }
+          #teams {
+            font-family:'Trebuchet MS';
+          }
+          #engineering-facts {
+            font-family:'Trebuchet MS';
+          }
+          #page-menu {
+            text-align:center;
+          }
+          p.b1 {
+            border-style:double;
+            border-radius:6px;
+            transition: all .2s ease-in-out;
+          }
+          p.b1:hover {
+            padding: 2.5px 5px;
+            transform: scale (1.1);
+          }
+          a.b2 {
+            border-style:double;
+            border-radius:6px;
+            transition: all .2s ease-in-out;
+          }
+          a.b2:hover {
+            padding: 2.5px 5px;
+            transform: scale (1.1);
+          }
+          p.search {
+            border-style:double;
+            border-radius:6px;
+            transition:all .2s ease-in-out;
+          }
+          p.search:hover {
+            padding:2.5px 5px;
+          }
+        </style>
+    </head>
+    <body>
+      <script>
+      </script>
+      <div style='font-family:Trebuchet MS' id='page-menu'>
+          <p class='b1' style='display:inline'>Page 1</p>
+          -
+          <a class='b2' href='page2.html' style='display:inline'>Page 2</a>
+      </div>
+      <div id='title'>
+        <h1 style='font-family:Trebuchet MS'>Terminatorz Robotics Club</h1>
+        <h3 style='font-family:Trebuchet MS'><i>We terminate problems - not people</i></h3>
+      </div>
+      <div id='weekly_agenda'>
+        <h2 style='text-decoration:underline;font-family:Trebuchet MS'>Weekly Meeting Agenda</h2>
+        <h3 style='font-family:Trebuchet MS'>On our current agenda:</h3>
+        <o>
+          <li style='font-family:Trebuchet MS'>Name each team</li>
+          <li style='font-family:Trebuchet MS'>Name each team robot</li>
+          <li style='font-family:Trebuchet MS'>Get the Team 1 robot connected to a computer (Bluetooth is messed up)</li>
+        </o>
+      </div>
+      <div id='teams'>
+        <h2 style='font-family:Trebuchet MS'>Here are our current sub-teams working separately on the same stuff:</h2>
+        <o>
+          <li style='font-family:Trebuchet MS'>Team 1: Name Undecided</li>
+          <li style='font-family:Trebuchet MS'>Team 2: Name Undecided</li>
+          <li style='font-family:Trebuchet MS'>Team 3: Name Undecided</li>
+        </o>
+        <h2 style='font-family:Trebuchet MS'>And here are their robot names:</h2>
+        <o>
+          <li style='font-family:Trebuchet MS'>Team 1: Unnamed as of now</li>
+          <li style='font-family:Trebuchet MS'>Team 2: Unnamed as of now</li>
+          <li style='font-family:Trebuchet MS'>Team 3: Terminatorz</li>
+        </o>
+        <p style='font-family:Trebuchet MS'>Here is an example robot (click on it for image source page)</p>
+        <a href='http://robotsquare.com/wp-content/uploads/2013/10/45544_edu-1.jpg'><img src='http://robotsquare.com/wp-content/uploads/2013/10/45544_edu-1.jpg' width=300 height=300></a>
+      </div>
+      <div id='engineering_facts'>
+        <h2 style='font-family:Trebuchet MS'>And now, some random engineering facts for you guys!</h2>
+        <o>
+          <li style='font-family:Trebuchet MS'>idea1</li>
+          <li style='font-family:Trebuchet MS'>idea2</li>
+          <li style='font-family:Trebuchet MS'>idea3</li>
+        </o>
+      </div>
+      <div id='club-detail'>
+        <h2 style='font-family:Trebuchet MS'><u>Club Details</u></h2>
+        <o style='font-family:Trebuchet MS'>
+          <li>Club Name: Terminatorz</li>
+          <li>FLL number: 461</li>
+          <li>Members:</li>
+          <o style='font-family:Trebuchet MS'>
+            <li>member1</li>
+            <li>member2</li>
+            <li>etcetera</li>
+          </o>
+        </o>
+      </div>
+      <div style='font-family:Trebuchet MS' id='fll-link'>
+        <h4 style='font-family:Trebuchet MS'>The First Lego League Website:</h4>
+        <a style='font-family:Trebuchet MS' href='http://www.firstlegoleague.org/'>firstlegoleague.org</a>
+      </div>
+    </body>
+</html>
